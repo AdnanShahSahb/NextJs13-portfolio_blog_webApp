@@ -18,7 +18,7 @@ interface arrTypes {
     blogBy: string,
     blogByImg: string
 }
-const page = ({ params }: PageProps) => {
+const Page = ({ params }: PageProps) => {
     // console.log(params.categs);
 
     const arr = [
@@ -114,4 +114,4 @@ const page = ({ params }: PageProps) => {
     )
 }
 
-export default page
+export default Page
