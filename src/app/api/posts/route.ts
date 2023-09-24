@@ -1,8 +1,7 @@
 import Posts from "@/models/Posts";
 import connect from "@/utils/db"
 import { NextResponse } from "next/server";
-
-export const GET = async (request: { url: any; }) => {
+export const GET = async (request: any) => {
 
     // const url = request.url
     // const em = url?.searchParams?.get("email")
