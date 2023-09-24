@@ -23,10 +23,10 @@ interface ArrTypes {
 //     return res.json()
 // }
 
-export const metadata = {
-    title: 'Blogs | Adnan Shah',
-    description: 'Elevate your digital presence with Adnan Shah. We specialize in creating stunning designs and turning your ideas into reality. Explore our portfolio, insightful blog, and learn about our dedicated team. Contact us today to see how we can enhance your brand.',
-}
+// export const metadata = {
+//     title: 'Blogs | Adnan Shah',
+//     description: 'Elevate your digital presence with Adnan Shah. We specialize in creating stunning designs and turning your ideas into reality. Explore our portfolio, insightful blog, and learn about our dedicated team. Contact us today to see how we can enhance your brand.',
+// }
 
 const Page = () => {
     // const data = await getData()
