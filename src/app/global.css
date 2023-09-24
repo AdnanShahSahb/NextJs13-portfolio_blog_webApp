@@ -1,0 +1,50 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+#imageContact,
+#homeImage {
+    animation: move 2s infinite ease alternate
+}
+
+@keyframes move {
+    from {
+        transform: translateY(-15px);
+    }
+
+    to {
+        transform: translateY(0px) scale(1.05);
+    }
+}
+
+#Illustrations-id {
+    background-image: url('../../public/images/illustration.png');
+    background-size: cover;
+}
+
+#Websites-id {
+    background-image: url('../../public/images/websites.jpg');
+    background-size: cover;
+}
+
+#Application-id {
+    background-image: url('../../public/images/apps.jpg');
+    background-size: cover;
+}
+
+#dashboardPostDivId::-webkit-scrollbar {
+    /* display: none; */
+    width: 5px;
+}
